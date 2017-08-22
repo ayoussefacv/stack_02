@@ -15,10 +15,10 @@
     "jsonwebtoken": "^7.3.0",
     "method-override": "^2.3.7",
     "mongodb": "^2.2.21",
-    "mongoose": "4.8.5",
+    "mongoose": "4.10.2",
     "mongoose-deep-populate": "^3.0.0",
     "mongoose-gridfs": "^0.1.0",
-    "mongoose-paginate": "^4.2.0",
+    "mongoose-paginate": "^5.0.0",
     "mongoose-schema-extend": "^0.2.2",
     "morgan": "^1.7.0",
     "multiparty": "^4.1.2",
@@ -29,6 +29,12 @@
     "redis": "^2.6.5",
     "request": "^2.79.0",
     "shelljs": "^0.7.6",
-    "underscore": "^1.8.3"
-  }
+    "underscore": "^1.8.3",
+    "snyk": "^1.40.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
