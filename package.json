@@ -29,6 +29,12 @@
     "redis": "^2.6.5",
     "request": "^2.79.0",
     "shelljs": "^0.7.6",
-    "underscore": "^1.8.3"
-  }
+    "underscore": "^1.8.3",
+    "snyk": "^1.41.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
