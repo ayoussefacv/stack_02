@@ -21,7 +21,7 @@
     "nodemailer-ses-transport": "^1.5.0",
     "nodemailer-smtp-transport": "^2.7.2",
     "redis": "^2.6.5",
-    "shelljs": "^0.7.6",
+    "shelljs": "^0.8.5",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
