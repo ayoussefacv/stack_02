@@ -8,7 +8,7 @@
     "crypto": "0.0.3",
     "express": "^4.14.0",
     "gridfs-stream": "^1.1.1",
-    "jsonwebtoken": "^7.3.0",
+    "jsonwebtoken": "^9.0.0",
     "method-override": "^2.3.7",
     "mongo-sanitize": "^1.0.0",
     "mongodb": "^2.2.21",
